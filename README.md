@@ -1,3 +1,3 @@
-# new-project
-
+# final task.  
+Главная страница - index.php;
 Нижник Дмитрий
