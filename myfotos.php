@@ -1,4 +1,4 @@
-<? session_start() ?>
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="ru">
 <head>
@@ -20,17 +20,12 @@
             filter: alpha(opacity=60);
         }
     </style>
-    <?php if(isset($_SESSION['id'])) {
-              echo "<a href = 'myfotos.php'>Мои фото</a>";
-            } ?>
 </head>
 <body>
 
 <div class="container">
     <div class="grid">
-         <?php
-
-         require 'threebuttons.php'; ?>
+         <?php require 'mygal.php'; ?>
     </div>
 </div>
 

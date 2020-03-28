@@ -19,13 +19,20 @@
 
 </header>
    <div class = "container">
+   <p>Загрузить в общее хранилище</p>
 			<form action="backend.php" method="post" enctype="multipart/form-data">
    <input type="file" name="image[]" multiple>
    <input type="submit" name="send" value = "Отправить">
 <input type="reset" name="reset" value="Очистить">
 </form>
+<p>Загрузить в личные фото</p>
+<form action="backend.php" method="post" enctype="multipart/form-data">
+   <input type="file" name="myimage[]" multiple>
+   <input type="submit" name="send" value = "Отправить">
+<input type="reset" name="reset" value="Очистить">
+</form>
     </div>
-   <footer>Права на все загруженные вами изображения принадлежат нам. 2020г.</footer>
+   <footer>Права на все загруженные вами изображения принадлежат нам) 2020г.</footer>
  </body>
 </html>';
 
